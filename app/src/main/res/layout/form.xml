@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <view
+        class="androidx.viewpager.widget.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/inputNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter NIM"
+        android:inputType="number" />
+
+    <view
+        android:id="@+id/view522"
+        class="androidx.viewpager.widget.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Fullname"
+        android:inputType="text" />
+
+    <view
+        class="androidx.viewpager.widget.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/inputAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:inputType="text" />
+
+    <view
+        class="androidx.viewpager.widget.ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+</LinearLayout>
